@@ -1,13 +1,11 @@
-import React, { Component } from 'react';
+import React from 'react';
+// eslint-disable-next-line
+import styles from './Sidebar.styles.css';
 
-class Sidebar extends Component {
-  render() {
-    return (
-      <div>
-        Sidebar
-      </div>
-    );
-  }
-}
+const Sidebar = () => (
+	<div className="sidebar">
+		Sidebar
+	</div>
+);
 
 export default Sidebar;
