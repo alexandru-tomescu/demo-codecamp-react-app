@@ -55,7 +55,7 @@ class Page2 extends Component {
 				{
 					this.state.starships.map((starship) => (
 						<div key={ starship.name } className="marginCard">
-							<Card title={ starship.name } bordered={false} st>
+							<Card title={ starship.name } bordered={false}>
 								<p>Model: { starship.model }</p>
 								<p>Length: { starship.length }</p>
 								<p>Cost: { starship.cost_in_credits }</p>
